@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB1FCFCA2647EE7B0022B2A7 /* LifeCodeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1FCFB92647EADC0022B2A7 /* LifeCodeList.swift */; };
+		DB1FCFCE2647EFC60022B2A7 /* resultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1FCFBD2647ED3E0022B2A7 /* resultViewController.swift */; };
 		DB28859E2646825600126366 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB28859D2646825600126366 /* AppDelegate.swift */; };
 		DB2885A02646825600126366 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB28859F2646825600126366 /* SceneDelegate.swift */; };
-		DB2885A22646825600126366 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2885A12646825600126366 /* ViewController.swift */; };
+		DB2885A22646825600126366 /* LifeCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2885A12646825600126366 /* LifeCodeViewController.swift */; };
 		DB2885A52646825600126366 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB2885A32646825600126366 /* Main.storyboard */; };
 		DB2885A72646825700126366 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB2885A62646825700126366 /* Assets.xcassets */; };
 		DB2885AA2646825700126366 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB2885A82646825700126366 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB1FCFB92647EADC0022B2A7 /* LifeCodeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCodeList.swift; sourceTree = "<group>"; };
+		DB1FCFBD2647ED3E0022B2A7 /* resultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultViewController.swift; sourceTree = "<group>"; };
 		DB28859A2646825600126366 /* lifecode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lifecode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB28859D2646825600126366 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB28859F2646825600126366 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DB2885A12646825600126366 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB2885A12646825600126366 /* LifeCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LifeCodeViewController.swift; path = ../LifeCodeViewController.swift; sourceTree = "<group>"; };
 		DB2885A42646825600126366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB2885A62646825700126366 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB2885A92646825700126366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +41,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB1FCFBA2647EADC0022B2A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB1FCFB92647EADC0022B2A7 /* LifeCodeList.swift */,
+			);
+			name = Model;
+			path = /Users/yousun/Desktop/project/lifecode/lifecode/Model;
+			sourceTree = "<absolute>";
+		};
+		DB1FCFBE2647ED3E0022B2A7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DB2885A12646825600126366 /* LifeCodeViewController.swift */,
+				DB1FCFBD2647ED3E0022B2A7 /* resultViewController.swift */,
+			);
+			name = Controllers;
+			path = /Users/yousun/Desktop/project/lifecode/lifecode/Controllers;
+			sourceTree = "<absolute>";
+		};
 		DB2885912646825600126366 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +79,10 @@
 		DB28859C2646825600126366 /* lifecode */ = {
 			isa = PBXGroup;
 			children = (
+				DB1FCFBE2647ED3E0022B2A7 /* Controllers */,
+				DB1FCFBA2647EADC0022B2A7 /* Model */,
 				DB28859D2646825600126366 /* AppDelegate.swift */,
 				DB28859F2646825600126366 /* SceneDelegate.swift */,
-				DB2885A12646825600126366 /* ViewController.swift */,
 				DB2885A32646825600126366 /* Main.storyboard */,
 				DB2885A62646825700126366 /* Assets.xcassets */,
 				DB2885A82646825700126366 /* LaunchScreen.storyboard */,
@@ -137,7 +161,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB2885A22646825600126366 /* ViewController.swift in Sources */,
+				DB1FCFCE2647EFC60022B2A7 /* resultViewController.swift in Sources */,
+				DB1FCFCA2647EE7B0022B2A7 /* LifeCodeList.swift in Sources */,
+				DB2885A22646825600126366 /* LifeCodeViewController.swift in Sources */,
 				DB28859E2646825600126366 /* AppDelegate.swift in Sources */,
 				DB2885A02646825600126366 /* SceneDelegate.swift in Sources */,
 			);

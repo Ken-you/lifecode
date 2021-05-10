@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "group:/Users/yousun/Desktop/project/lifecode/lifecode/Controllers"
+      name = "Controllers">
+      <FileRef
+         location = "group:resultViewController.swift">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:/Users/yousun/Desktop/project/lifecode/lifecode/Model"
+      name = "Model">
+      <FileRef
+         location = "group:../Controllers/resultViewController.swift">
+      </FileRef>
+      <FileRef
+         location = "group:LifeCodeList.swift">
+      </FileRef>
+   </Group>
    <FileRef
       location = "self:">
    </FileRef>
